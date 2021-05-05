@@ -13,9 +13,6 @@ def sobelOperator(img):
     return container
     pass
 
-
-#test test_img
-
 img = cv2.cvtColor(cv2.imread("test_img.png"), cv2.COLOR_BGR2GRAY)
 img = sobelOperator(img)
 img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
